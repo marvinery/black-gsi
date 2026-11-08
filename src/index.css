@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: auto;
+  overscroll-behavior-y: none;
+}
+
+body {
+  @apply bg-bg text-zinc-200 font-sans antialiased;
+  overscroll-behavior-y: none;
+}
+
+:focus-visible { outline: 2px solid #FFD400; outline-offset: 2px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
