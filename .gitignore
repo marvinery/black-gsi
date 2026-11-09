@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 *.zip
+site-black-gsi/
 
 # Editor directories and files
 .vscode/*
